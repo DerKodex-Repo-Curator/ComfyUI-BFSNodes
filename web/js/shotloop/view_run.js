@@ -1,6 +1,5 @@
 // ▶ Run tab: checks before running, how the loop runs (auto / queue), which shots run (filters) and test limits.
-import { h } from "../vendor/vue.esm-browser.prod.mjs";
-import { fld, check, section, pill, hint, select } from "./common.js";
+import { h, fld, check, section, pill, hint, select } from "./common.js";
 
 function checksSection(c) {
   const { checks, tab } = c;
